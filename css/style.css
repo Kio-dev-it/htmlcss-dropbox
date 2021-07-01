@@ -32,11 +32,32 @@ body{
     margin: auto;
 }
 
+.container-small{
+    width: 67%;
+    margin: auto;
+}
+
 /* Typo */
 
 h1{
     font-size: 85px;
     font-weight: 800;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+h4{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+h5{
+    font-size: 20px;
+    margin-bottom: 18px;
 }
 
 
@@ -45,9 +66,17 @@ h1{
     padding: 8px 20px;
 }
 
+.btn-medium{
+    padding: 8px 45px;
+}
+
 .blue-btn{
     color: #fff;
     background-color: #0061ff;
+}
+
+a.btn, a.btn-medium{
+    text-decoration: none;
 }
 
 /* Header */
@@ -60,6 +89,7 @@ h1{
     position: fixed;
     top: 0;
     background-color: #fff;
+    z-index: 10;
 }
 
 .logo img{
@@ -135,4 +165,104 @@ header nav li{
 .hero-image img{
     width: 100%;
     object-fit: contain;
+}
+
+/* Main */
+
+main{
+    margin-top: 150px;
+}
+
+/* Section Plans */
+
+.plans{
+    padding-top: 80px   ;
+}
+
+.plans label{
+    margin-right: 30px;
+}
+
+.plan-details{
+    width: calc((100% - 80px) / 3);
+    height: 1200px;
+    margin: 40px 0 10px 0;
+    text-align: center;
+    border: 1px solid #d0d0d3;
+    padding: 15px 0;
+}
+
+.who-plan{
+    border-bottom: 1px solid #d0d0d3;
+    padding-bottom: 15px;
+    width: 100%;
+    display: block;
+}
+
+
+.plan-info .plan-details:nth-child(2){
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.plan-offer{
+    padding: 35px 30px 0 30px;
+    text-align: left;
+}
+
+.cost, .bill-period{
+    display: block;
+}
+
+.bill-period{
+    color: #697986;
+    font-size: 0.8em;
+    margin-bottom: 40px;
+}
+
+.center-btn, .buy-now{
+    margin-bottom: 30px;
+}
+
+.cost{
+    margin-bottom: 20px;
+}
+
+.bill-period{
+    margin-bottom: 70px;
+}
+
+.center-btn{
+    text-align: center;
+}
+
+
+.plan-info hr{
+    width: 20%;
+    border: 1px solids #d0d0d3;
+}
+
+.plan-features{
+    margin-top: 45px;
+}
+/* List */
+
+.plan-info ul li:last-child{
+    margin-bottom: 50px;
+}
+
+.plan-info li{
+    margin-bottom: 30px;
+}
+
+.fa-ul{
+    margin-left: 1.5em;
+}
+
+.plan-features ul{
+    font-size: 16px;
+}
+
+.plan-features .fa-li{
+    color: #0061ff;
 }
