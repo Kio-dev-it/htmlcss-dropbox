@@ -186,13 +186,13 @@ main{
 .plan-details{
     width: calc((100% - 80px) / 3);
     height: 1200px;
-    margin: 40px 0 10px 0;
+    margin-top: 40px;
     text-align: center;
     border: 1px solid #d0d0d3;
     padding: 15px 0;
 }
 
-.who-plan{
+.who-plan, .standard-plan, .advanced-plan{
     border-bottom: 1px solid #d0d0d3;
     padding-bottom: 15px;
     width: 100%;
