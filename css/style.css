@@ -9,6 +9,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     max-width: 1920px;
+    font-size: 18px;
+    margin: auto;
 }
 
 .clearfix::after{
@@ -25,6 +27,20 @@ body{
     float: right;
 }
 
+.container-large{
+    width: 80%;
+    margin: auto;
+}
+
+/* Typo */
+
+h1{
+    font-size: 85px;
+    font-weight: 800;
+}
+
+
+/* Buttons */
 .btn{
     padding: 8px 20px;
 }
@@ -53,6 +69,7 @@ body{
 /* Navigation */
 header nav{
     margin: 0 45px;
+    width: 35%;
 }
 
 header a{
@@ -68,11 +85,54 @@ header nav li{
 
 .nav-left{
     text-align: left;
-    width: 35%;
 }
+
+.nav-right{
+    text-align: right;
+}
+
+
 
 .start{
     line-height: normal;
 }
 
+/* Hero */
+.hero{
+    padding-top: 85px;
+    background-color: #b4d0e7;
+    height: 900px;
+}
 
+.hero h1{
+    padding-top: 100px;
+}
+
+.hero-content{
+    padding-top: 60px;
+}
+
+.hero-info{
+    width: 30%;
+}
+
+.hero-info > p{
+    margin-bottom: 30px;
+}
+
+.hero-info p:nth-child(3){
+    margin-top: 25px;
+}
+
+.hero-info i{
+    font-size: 35px;
+}
+
+.hero-image{
+    width: 60%;
+}
+
+.hero-image img{
+    width: 100%;
+    object-fit: contain;
+}
