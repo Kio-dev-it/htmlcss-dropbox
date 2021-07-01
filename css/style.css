@@ -79,7 +79,12 @@ h5{
     background-color: #0061ff;
 }
 
-a.btn, a.btn-medium, a.btn-large{
+.white-btn{
+    color: #000;
+    border: 1px solid #000;
+}
+
+a.btn-small, a.btn-medium, a.btn-large{
     text-decoration: none;
 }
 
@@ -289,4 +294,29 @@ main{
 
 .plan-features .fa-li{
     color: #0061ff;
+}
+
+/* Partner section */
+
+.partner{
+    margin-top: 200px;
+}
+
+.partner-image{
+    width: 55%;
+}
+
+.partner-image img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.partner-info{
+    width: 40%;
+    padding-top: 45px;
+}
+
+.partner-info p{
+    line-height: 1.8em;
+    margin-bottom: 35px;
 }
