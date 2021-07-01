@@ -62,12 +62,16 @@ h5{
 
 
 /* Buttons */
-.btn{
+.btn-small{
     padding: 8px 20px;
 }
 
 .btn-medium{
-    padding: 8px 45px;
+    padding: 8px 60px;
+}
+
+.btn-large{
+    padding: 8px 75px;
 }
 
 .blue-btn{
@@ -75,7 +79,7 @@ h5{
     background-color: #0061ff;
 }
 
-a.btn, a.btn-medium{
+a.btn, a.btn-medium, a.btn-large{
     text-decoration: none;
 }
 
@@ -183,16 +187,20 @@ main{
     margin-right: 30px;
 }
 
-.plan-details{
-    width: calc((100% - 80px) / 3);
+.column{
     height: 1200px;
-    margin-top: 40px;
+    width: calc((100% - 80px) / 3);
     text-align: center;
+
+}
+
+.plan-details{
+    margin-top: 40px;
     border: 1px solid #d0d0d3;
     padding: 15px 0;
 }
 
-.who-plan, .standard-plan, .advanced-plan{
+.who-plan, .standard-plan, .advanced-plan, .enterprise-plan{
     border-bottom: 1px solid #d0d0d3;
     padding-bottom: 15px;
     width: 100%;
@@ -226,6 +234,7 @@ main{
 
 .cost{
     margin-bottom: 20px;
+    font-weight: 700;
 }
 
 .bill-period{
@@ -245,6 +254,21 @@ main{
 .plan-features{
     margin-top: 45px;
 }
+
+.plan-details.full-page{
+    text-align: center;
+}
+
+.full-page .bill-period{
+    margin-bottom: 20px;
+}
+
+.full-page a{
+    margin: 40px 30px 0 0 ;
+}
+
+
+
 /* List */
 
 .plan-info ul li:last-child{
