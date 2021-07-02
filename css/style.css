@@ -327,3 +327,25 @@ main{
 .operation{
     margin-top: 150px;
 }
+
+.operation .row{
+    margin-bottom: 90px;
+}
+
+.col-op{
+    width: calc((100% - 150px) / 3);
+}
+
+.operation .row .col-op:nth-child(2){
+    margin: 0 75px 0 75px;
+}
+
+.col-op img{
+    width: 100%;
+}
+
+.col-op h4{
+    margin: 30px 0;
+}
+
+
