@@ -495,3 +495,47 @@ main{
     position: absolute;
     right: 30px;
 }
+
+/* Footer */
+footer{
+    background-color: #000;
+    padding-bottom: 55px;
+    font-size: 16px;
+}
+
+.footer-top{
+    color: #fff;
+    padding-top: 100px;
+}
+
+.footer-top h5{
+    font-size: 24px;
+    margin-bottom: 22px;
+    font-weight: 800;
+}
+
+.footer-top ul{
+    list-style: none;
+    line-height: 2.2em;
+    font-weight: 600;
+    margin-bottom: 140px;
+}
+
+.col-footer{
+    width: 20%
+}
+
+.footer-bottom{
+    color: #666666;
+}
+
+.footer-bottom .fa-globe-americas{
+    color: #999999;
+}
+
+.footer-bottom span{
+    padding: 55px 55px 0 0;
+    border-top: 1px solid #bfbfbf;
+
+}
+
