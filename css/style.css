@@ -82,6 +82,7 @@ h5{
 .white-btn{
     color: #000;
     border: 1px solid #000;
+    background-color: #fff;
 }
 
 a.btn-small, a.btn-medium, a.btn-large{
@@ -358,12 +359,14 @@ main{
     margin-bottom: 30px;
 }
 
-.clients a{
+.clients .link-client{
     color: #0061ff
 }
 
 .clients-logo{
     margin-top: 40px;
+    height: 576px;
+    background-color: #f5f5f5;
 }
 
 .clients .side{
@@ -371,6 +374,7 @@ main{
 }
 
 .clients .center{
+    padding: 60px;
     width: 40%;
 }
 
@@ -387,6 +391,22 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
+}
+
+.center img{
+    object-fit: contain;
+    height: 30%;
+    width: 25%;
+    margin-bottom: 45px;
+}
+
+.center hr{
+    width: 10%;
+    border: 1px solid #d0d0d3;
+} 
+
+.center p{
+    margin-top: 60px;
 }
 
 /* Logo backgrounds */
@@ -420,4 +440,26 @@ main{
 
 .back-yellow{
     background-color: #ffd830;
+}
+
+/* free try*/
+
+.free-try{
+    padding: 140px 0 110px 0;
+    background-color: #b4d0e7;
+}
+
+.free-try .container-small{
+    position: relative;
+}
+
+.free-try h2{
+    width: 50%;
+    color: #61082b;
+}
+.free-try a{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
 }
