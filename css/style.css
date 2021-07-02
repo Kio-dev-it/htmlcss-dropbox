@@ -348,4 +348,76 @@ main{
     margin: 30px 0;
 }
 
+/* Clients section */
 
+.clients{
+    margin-top: 200px;
+}
+
+.clients h2{
+    margin-bottom: 30px;
+}
+
+.clients a{
+    color: #0061ff
+}
+
+.clients-logo{
+    margin-top: 40px;
+}
+
+.clients .side{
+    width: 30%;
+}
+
+.clients .center{
+    width: 40%;
+}
+
+.square{
+    width:50%;
+    padding-top: 50%; 
+    position: relative; 
+    display: inline-block;
+}
+
+.square img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+/* Logo backgrounds */
+.back-lightgreen{
+    background-color: #a2d39b;
+}
+
+.back-bordeaux{
+    background-color: #61082b;
+}
+
+.back-azure{
+    background-color: #0093ce;
+}
+
+.back-red{
+    background-color: #ff1c1c;
+}
+
+.back-darkred{
+    background-color: #d5001f;
+}
+
+.back-lightblue{
+    background-color: #b4d0e7;
+} 
+
+.back-blue{
+    background-color: #0d2481;
+}
+
+.back-yellow{
+    background-color: #ffd830;
+}
