@@ -27,30 +27,35 @@
             <section class="menu clearfix">
 
                 <!-- menu left -->
-                <div class="logo float-left">
-                    <img src="./img/logo-small.png" alt="Logo Dropbox">
+                <div class="float-left col-50">
+
+                    <div class="logo">
+                        <img src="./img/logo-small.png" alt="Logo Dropbox">
+                    </div>
+                    <nav class="nav-left">
+                        <ul>
+                            <li><a href="#">Perch&eacute; Dropbox?</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                            <li><a href="#">Piani e prezzi</a></li>
+                        </ul>
+                    </nav>
+
                 </div>
-                <nav class="nav-left float-left">
-                    <ul>
-                        <li><a href="#">Perch&eacute; Dropbox?</a></li>
-                        <li><a href="#">Funzioni</a></li>
-                        <li><a href="#">Piani e prezzi</a></li>
-                    </ul>
-                </nav>
                 <!-- /menu left -->
 
                 <!-- menu right -->
-                <div class="float-right">
-                    <a href="#" class="start btn-small blue-btn">Inizia</a>
-                </div>
+                <div class="float-right col-50">
 
-                <nav class="nav-right float-right">
-                    <ul>
-                        <li><a href="#">Supporto</a></li>
-                        <li><a href="#">Contatta l'ufficio vendite</a></li>
-                        <li><a href="#">Accedi</a></li>
-                    </ul>
-                </nav>
+                    <nav class="nav-right">
+                        <ul>
+                            <li><a href="#">Supporto</a></li>
+                            <li><a href="#">Contatta l'ufficio vendite</a></li>
+                            <li><a href="#">Accedi</a></li>
+                        </ul>
+                    </nav>
+                    <a href="#" class="btn-small blue-btn">Inizia</a>
+
+                </div>
                 <!-- /menu right -->
             </section>
 
@@ -61,7 +66,7 @@
                     <div class="hero-content clearfix">
                         <div class="hero-info float-left">
                             <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox business &egrave; pi&ugrave; di uno spazio archiviazione sicuro: &egrave; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                            <a href="#" class="start btn blue-btn">Inizia la tua prova gratuita</a>
+                            <a href="#" class="btn-small blue-btn">Inizia la tua prova gratuita</a>
                             <p>Annulla in qualsiasi momento</p>
                             <i class="fas fa-arrow-down"></i>
                         </div>
@@ -93,7 +98,7 @@
 
                     <section class="plan-info clearfix">
                         <section class="plan-details column float-left">
-                            <span class="who-plan"><i class="far fa-user"></i> Singolo</span>
+                            <span class="plan-box" id="professional"><i class="far fa-user"></i> Singolo</span>
                             <div class="plan-offer">
                                 <h4>Professional</h4>
                                 <div class="cost">19,99 &euro;</div>
@@ -129,7 +134,7 @@
                         </section>
 
                         <section class="plan-details column float-left">
-                            <span class="standard-plan"><i class="far fa-building"></i> Team</span>
+                            <span class="plan-box" id="standard"><i class="far fa-building"></i> Team</span>
                             <div class="plan-offer">
                                 <h4>Standard</h4>
                                 <div class="cost">19,99 &euro;</div>
@@ -167,7 +172,7 @@
                         </section>
 
                         <section class="plan-details column float-left">
-                            <span class="advanced-plan"><i class="far fa-building"></i> Team</span>
+                            <span class="plan-box" id="advanced"><i class="far fa-building"></i> Team</span>
                             <div class="plan-offer">
                                 <h4>Advanced</h4>
                                 <div class="cost">19,99 &euro;</div>
@@ -202,7 +207,7 @@
                     </section>
 
                     <section class="plan-details full-page clearfix">
-                        <span class="enterprise-plan"><i class="far fa-building"></i> Team</span>
+                        <span class="plan-box" id="enterprise"><i class="far fa-building"></i> Team</span>
                         <div class="plan-offer float-left">
                             <h4>Enterprise</h4>
                             <div class="cost">Contatta l'ufficio vendite per i prezzi</div>
@@ -225,7 +230,7 @@
                     <div class="partner-info float-right">
                         <h4>Entra in contatto con un partner Dropbox</h4>
                         <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
-                        <a href="#" class="start btn-small white-btn">Trova un partner</a>
+                        <a href="#" class="btn-small white-btn">Trova un partner</a>
 
                     </div>
                 </div>
