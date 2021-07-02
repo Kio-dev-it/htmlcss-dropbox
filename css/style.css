@@ -50,6 +50,11 @@ h2{
     margin-bottom: 60px;
 }
 
+h3{
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
 h4{
     font-size: 30px;
     margin-bottom: 25px;
@@ -462,4 +467,31 @@ main{
     right: 0;
     top: 0;
     border: none;
+}
+
+/* FAQ */
+
+.faq{
+    margin: 150px 0 130px 0;
+}
+
+.faq ul{
+    list-style: none;
+
+}
+
+.faq li{
+    position: relative;
+    padding: 35px 0;
+    border-bottom: 1px solid #d0d0d3;
+    font-weight: 600;
+}
+
+.faq li:first-of-type{
+    border-top: 1px solid #d0d0d3;
+}
+
+.faq i{
+    position: absolute;
+    right: 30px;
 }
