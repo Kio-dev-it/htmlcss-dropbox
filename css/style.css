@@ -92,7 +92,7 @@ a.btn-small, a.btn-medium, a.btn-large{
 
 .menu{
     height: 85px;
-    width: 100%;
+    width: 1920px;
     padding: 0 20px;
     line-height: 85px;
     position: fixed;
@@ -321,3 +321,9 @@ main{
     margin-bottom: 35px;
 }
 
+
+/* Operation section */
+
+.operation{
+    margin-top: 150px;
+}
