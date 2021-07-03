@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Common */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -36,6 +37,7 @@ body{
     width: 67%;
     margin: auto;
 }
+
 
 /* Typo */
 
@@ -94,6 +96,7 @@ a.btn-small, a.btn-medium, a.btn-large{
     text-decoration: none;
 }
 
+
 /* Header */
 
 .menu{
@@ -113,6 +116,7 @@ a.btn-small, a.btn-medium, a.btn-large{
 .logo img{
     vertical-align: middle;
 }
+
 
 /* Navigation */
 
@@ -184,11 +188,13 @@ header nav, .menu div, header nav li{
     width: 100%;
 }
 
+
 /* Main */
 
 main{
     margin-top: 150px;
 }
+
 
 /* Section Plans */
 
@@ -238,11 +244,11 @@ main{
 .bill-period{
     color: #697986;
     font-size: 0.8em;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
-.center-btn, .buy-now{
-    margin-bottom: 30px;
+.buy-now{
+    margin: 30px 0;
 }
 
 .cost{
@@ -250,18 +256,9 @@ main{
     font-weight: 700;
 }
 
-.bill-period{
-    margin-bottom: 70px;
-}
-
-.center-btn{
-    text-align: center;
-}
-
-
 .plan-info hr{
     width: 20%;
-    border: 1px solids #d0d0d3;
+    border: 1px solid #d0d0d3;
 }
 
 .plan-features{
@@ -279,7 +276,6 @@ main{
 .full-page a{
     margin: 40px 30px 0 0 ;
 }
-
 
 
 /* List */
@@ -303,6 +299,7 @@ main{
 .plan-features .fa-li{
     color: #0061ff;
 }
+
 
 /* Partner section */
 
@@ -355,6 +352,7 @@ main{
     margin: 30px 0;
 }
 
+
 /* Clients section */
 
 .clients{
@@ -388,7 +386,6 @@ main{
     width:50%;
     padding-top: 50%; 
     position: relative; 
-    display: inline-block;
 }
 
 .square img{
@@ -414,7 +411,9 @@ main{
     margin-top: 60px;
 }
 
+
 /* Logo backgrounds */
+
 .back-lightgreen{
     background-color: #a2d39b;
 }
@@ -447,6 +446,7 @@ main{
     background-color: #ffd830;
 }
 
+
 /* free try*/
 
 .free-try{
@@ -468,6 +468,7 @@ main{
     top: 0;
     border: none;
 }
+
 
 /* FAQ */
 
@@ -496,7 +497,9 @@ main{
     right: 30px;
 }
 
+
 /* Footer */
+
 footer{
     background-color: #000;
     padding-bottom: 55px;
@@ -586,7 +589,6 @@ header li a:hover{
     background-repeat: no-repeat;
     transition: background-size .4s;
 }
-
   
 .operation a:hover{
    background-size: 0 0.2em, 100% 0.2em;
