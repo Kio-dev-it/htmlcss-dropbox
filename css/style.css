@@ -182,7 +182,6 @@ header nav, .menu div, header nav li{
 
 .hero-image img{
     width: 100%;
-    object-fit: contain;
 }
 
 /* Main */
@@ -317,7 +316,6 @@ main{
 
 .partner-image img{
     width: 100%;
-    object-fit: contain;
 }
 
 .partner-info{
@@ -402,7 +400,6 @@ main{
 }
 
 .center img{
-    object-fit: contain;
     height: 30%;
     width: 25%;
     margin-bottom: 45px;
