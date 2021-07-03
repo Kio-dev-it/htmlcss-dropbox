@@ -539,3 +539,56 @@ footer{
 
 }
 
+
+/* Hover */
+
+a.blue-btn, a.white-btn{
+    transition-property: outline, background-color, color;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+    outline: 2px solid rgba(0,0,0,0);
+    outline-offset: -4px;
+}
+
+a.blue-btn:hover, a.white-btn:hover{
+    border: none;
+    background-color: #fff;
+    color: #0061ff;
+    outline: 2px solid #0061ff;
+    outline-offset: -4px;
+}
+
+.square{
+    outline: 10px solid rgba(255,255,255,0);
+    outline-offset: -10px;
+    transition-property: outline;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+}
+
+.square:hover{
+    outline: 10px solid rgba(255, 255, 255, 0.6);
+    outline-offset: -10px;
+}
+
+header li a:hover{
+    border-bottom: 3px solid rgba(0, 97, 255, 0.8);
+}
+
+.operation a{
+    text-decoration: none;
+    color: #000;
+    background: 
+    linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)), 
+    linear-gradient(to right, rgba(0, 97, 255, 1), rgba(0, 97, 255, 1));
+    background-size: 100% 0.2em, 0 0.2em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .4s;
+}
+
+  
+.operation a:hover{
+   background-size: 0 0.2em, 100% 0.2em;
+}
+
