@@ -8,7 +8,7 @@
 /* Common */
 body{
     font-family: 'Open Sans', sans-serif;
-    max-width: 1920px;
+    max-width: 1900px;
     font-size: 18px;
     margin: auto;
 }
@@ -98,11 +98,14 @@ a.btn-small, a.btn-medium, a.btn-large{
 
 .menu{
     height: 85px;
-    width: 1920px;
+    max-width: 1900px;
     padding: 0 20px;
     line-height: 85px;
     position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
     background-color: #fff;
     z-index: 10;
 }
