@@ -88,12 +88,13 @@ h5{
 .blue-btn{
     color: #fff;
     background-color: #0061ff;
+    border: 2px solid transparent;
 }
 
 .white-btn{
     color: #000;
-    border: 1px solid #000;
     background-color: #fff;
+    border: 2px solid transparent;
 }
 
 a.btn-small, a.btn-medium, a.btn-large{
@@ -314,6 +315,11 @@ header nav, .menu div, header nav li{
     margin-bottom: 35px;
 }
 
+.partner a.white-btn{
+    border: 2px solid #000;
+
+}
+
 
 /* Operation section */
 
@@ -368,6 +374,8 @@ header nav, .menu div, header nav li{
     width:50%;
     padding-top: 50%; 
     position: relative; 
+    outline: 10px solid transparent;
+    outline-offset: -10px;
 }
 
 .square img{
@@ -376,6 +384,10 @@ header nav, .menu div, header nav li{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
+}
+
+.overlay{
+    background-color: black;
 }
 
 .center img{
@@ -448,7 +460,6 @@ header nav, .menu div, header nav li{
     position: absolute;
     right: 0;
     top: 0;
-    border: none;
 }
 
 
@@ -526,24 +537,19 @@ footer{
 /* Hover */
 
 a.blue-btn, a.white-btn{
-    transition-property: outline, background-color, color;
+    transition-property: border, background-color, color;
     transition-duration: .4s;
     transition-timing-function: ease-in-out;
-    outline: 2px solid rgba(0,0,0,0);
-    outline-offset: -4px;
+   
 }
 
 a.blue-btn:hover, a.white-btn:hover{
-    border: none;
     background-color: #fff;
     color: #0061ff;
-    outline: 2px solid #0061ff;
-    outline-offset: -4px;
+    border: 2px solid #0061ff;
 }
 
 .square{
-    outline: 10px solid rgba(255,255,255,0);
-    outline-offset: -10px;
     transition-property: outline;
     transition-duration: .2s;
     transition-timing-function: ease-in;
