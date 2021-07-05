@@ -14,6 +14,10 @@ body{
     margin: auto;
 }
 
+main > section{
+    margin-top: 165px;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -189,18 +193,7 @@ header nav, .menu div, header nav li{
 }
 
 
-/* Main */
-
-main{
-    margin-top: 150px;
-}
-
-
 /* Section Plans */
-
-.plans{
-    padding-top: 80px   ;
-}
 
 .plans label{
     margin-right: 30px;
@@ -303,10 +296,6 @@ main{
 
 /* Partner section */
 
-.partner{
-    margin-top: 200px;
-}
-
 .partner-image{
     width: 55%;
 }
@@ -327,10 +316,6 @@ main{
 
 
 /* Operation section */
-
-.operation{
-    margin-top: 150px;
-}
 
 .operation .row{
     margin-bottom: 90px;
@@ -355,9 +340,6 @@ main{
 
 /* Clients section */
 
-.clients{
-    margin-top: 200px;
-}
 
 .clients h2{
     margin-bottom: 30px;
@@ -472,13 +454,9 @@ main{
 
 /* FAQ */
 
-.faq{
-    margin: 150px 0 130px 0;
-}
-
 .faq ul{
     list-style: none;
-
+    margin-bottom: 130px;
 }
 
 .faq li{
